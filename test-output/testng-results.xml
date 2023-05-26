@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-30T03:12:49 IST" name="Suite" finished-at="2023-04-30T03:12:50 IST" duration-ms="1562">
+    <groups>
+    </groups>
+    <test started-at="2023-04-30T03:12:49 IST" name="validate Test" finished-at="2023-04-30T03:12:49 IST" duration-ms="181">
+      <class name="testpractice.ValidateSoftAssert">
+        <test-method signature="valiadte()[pri:0, instance:testpractice.ValidateSoftAssert@65d09a04]" started-at="2023-04-30T03:12:49 IST" name="valiadte" finished-at="2023-04-30T03:12:49 IST" duration-ms="31" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [jih] but found [Avg],
+custom error message did not expect to find [true] but found [false],
+intentional fail message]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [jih] but found [Avg],
+custom error message did not expect to find [true] but found [false],
+intentional fail message
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testpractice.ValidateSoftAssert.valiadte(ValidateSoftAssert.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valiadte -->
+      </class> <!-- testpractice.ValidateSoftAssert -->
+    </test> <!-- validate Test -->
+    <test started-at="2023-04-30T03:12:49 IST" name="CreateUser Test" finished-at="2023-04-30T03:12:50 IST" duration-ms="594">
+      <class name="testpractice.CreateUser">
+        <test-method signature="createuser(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:testpractice.CreateUser@117e949d]" started-at="2023-04-30T03:12:49 IST" name="createuser" data-provider="getdata" finished-at="2023-04-30T03:12:49 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="createuser(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:testpractice.CreateUser@117e949d]" started-at="2023-04-30T03:12:49 IST" name="createuser" data-provider="getdata" finished-at="2023-04-30T03:12:49 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[superAdmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[54321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[canada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="createuser(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:testpractice.CreateUser@117e949d]" started-at="2023-04-30T03:12:49 IST" name="createuser" data-provider="getdata" finished-at="2023-04-30T03:12:49 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[67890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pakistan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="deleteuser(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:testpractice.CreateUser@117e949d]" started-at="2023-04-30T03:12:49 IST" name="deleteuser" data-provider="getdata" finished-at="2023-04-30T03:12:49 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[googleChrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Administrator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[indiaindia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+        <test-method signature="deleteuser(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:testpractice.CreateUser@117e949d]" started-at="2023-04-30T03:12:49 IST" name="deleteuser" data-provider="getdata" finished-at="2023-04-30T03:12:49 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MozillaFirefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[superAdministarator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[543210987]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[canadacanada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+        <test-method signature="deleteuser(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:testpractice.CreateUser@117e949d]" started-at="2023-04-30T03:12:50 IST" name="deleteuser" data-provider="getdata" finished-at="2023-04-30T03:12:50 IST" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InternetExplorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Usergeneral]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[678901234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pakistanpakistan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+      </class> <!-- testpractice.CreateUser -->
+    </test> <!-- CreateUser Test -->
+    <test started-at="2023-04-30T03:12:50 IST" name="assert Test" finished-at="2023-04-30T03:12:50 IST" duration-ms="156">
+      <class name="testpractice.SkipAnnotationTest$SearchAndBuyPhone">
+        <test-method signature="search(org.testng.ITestContext)[pri:1, instance:testpractice.SkipAnnotationTest$SearchAndBuyPhone@1018bde2]" started-at="2023-04-30T03:12:50 IST" name="search" finished-at="2023-04-30T03:12:50 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5524cca1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="select(org.testng.ITestContext)[pri:2, instance:testpractice.SkipAnnotationTest$SearchAndBuyPhone@1018bde2]" started-at="2023-04-30T03:12:50 IST" name="select" finished-at="2023-04-30T03:12:50 IST" depends-on-methods="testpractice.SkipAnnotationTest$SearchAndBuyPhone.search" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5524cca1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select -->
+        <test-method signature="checkout(org.testng.ITestContext)[pri:3, instance:testpractice.SkipAnnotationTest$SearchAndBuyPhone@1018bde2]" started-at="2023-04-30T03:12:50 IST" name="checkout" finished-at="2023-04-30T03:12:50 IST" depends-on-methods="testpractice.SkipAnnotationTest$SearchAndBuyPhone.search, testpractice.SkipAnnotationTest$SearchAndBuyPhone.select" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5524cca1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+      </class> <!-- testpractice.SkipAnnotationTest$SearchAndBuyPhone -->
+      <class name="testpractice.AssertTest">
+        <test-method is-config="true" signature="bef()[pri:0, instance:testpractice.AssertTest@2f54a33d]" started-at="2023-04-30T03:12:50 IST" name="bef" finished-at="2023-04-30T03:12:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bef -->
+        <test-method is-config="true" signature="befmet()[pri:0, instance:testpractice.AssertTest@2f54a33d]" started-at="2023-04-30T03:12:50 IST" name="befmet" finished-at="2023-04-30T03:12:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befmet -->
+        <test-method signature="dologin()[pri:0, instance:testpractice.AssertTest@2f54a33d]" started-at="2023-04-30T03:12:50 IST" name="dologin" finished-at="2023-04-30T03:12:50 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+        <test-method is-config="true" signature="aftmet()[pri:0, instance:testpractice.AssertTest@2f54a33d]" started-at="2023-04-30T03:12:50 IST" name="aftmet" finished-at="2023-04-30T03:12:50 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmet -->
+        <test-method is-config="true" signature="befmet()[pri:0, instance:testpractice.AssertTest@2f54a33d]" started-at="2023-04-30T03:12:50 IST" name="befmet" finished-at="2023-04-30T03:12:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befmet -->
+        <test-method signature="logout()[pri:0, instance:testpractice.AssertTest@2f54a33d]" started-at="2023-04-30T03:12:50 IST" name="logout" finished-at="2023-04-30T03:12:50 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="aftmet()[pri:0, instance:testpractice.AssertTest@2f54a33d]" started-at="2023-04-30T03:12:50 IST" name="aftmet" finished-at="2023-04-30T03:12:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftmet -->
+        <test-method is-config="true" signature="aft()[pri:0, instance:testpractice.AssertTest@2f54a33d]" started-at="2023-04-30T03:12:50 IST" name="aft" finished-at="2023-04-30T03:12:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aft -->
+      </class> <!-- testpractice.AssertTest -->
+    </test> <!-- assert Test -->
+    <test started-at="2023-04-30T03:12:50 IST" name="Phone Test" finished-at="2023-04-30T03:12:50 IST" duration-ms="55">
+      <class name="testpractice.SearchAndBuyPhone">
+        <test-method signature="search()[pri:1, instance:testpractice.SearchAndBuyPhone@28975c28]" started-at="2023-04-30T03:12:50 IST" name="search" finished-at="2023-04-30T03:12:50 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="select()[pri:2, instance:testpractice.SearchAndBuyPhone@28975c28]" started-at="2023-04-30T03:12:50 IST" name="select" finished-at="2023-04-30T03:12:50 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select -->
+        <test-method signature="checkout()[pri:3, instance:testpractice.SearchAndBuyPhone@28975c28]" started-at="2023-04-30T03:12:50 IST" name="checkout" finished-at="2023-04-30T03:12:50 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+      </class> <!-- testpractice.SearchAndBuyPhone -->
+    </test> <!-- Phone Test -->
+  </suite> <!-- Suite -->
+</testng-results>
