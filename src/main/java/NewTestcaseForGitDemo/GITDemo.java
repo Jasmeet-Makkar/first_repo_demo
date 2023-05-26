@@ -7,5 +7,10 @@ public class GITDemo {
 	public void gitdemo() {
 		System.out.println("gitdemo");
 	}
+		
+		@Test
+		public void gitdemoalter() {
+			System.out.println("gitdemoalter");
+	}
 
 }
